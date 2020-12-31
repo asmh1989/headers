@@ -18,7 +18,7 @@ pub struct Cookie(FlatCsv<SemiColon>);
 
 derive_header! {
     Cookie(_),
-    name: COOKIE
+    name: SET_COOKIE
 }
 
 impl Cookie {
